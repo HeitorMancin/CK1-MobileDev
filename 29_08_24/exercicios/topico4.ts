@@ -13,7 +13,6 @@ function encontrarMaiorElemento<T extends number | string>(array: T[]): T {
     return maior;
 }
 
-
 const maiorNumero = encontrarMaiorElemento([10, 20, 30]);
 const maiorPalavra = encontrarMaiorElemento(['gato', 'elefante', 'zebra']);
 

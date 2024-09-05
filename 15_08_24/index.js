@@ -1,6 +1,7 @@
+"use strict";
 console.log("Hello World!");
-var nome = "Gabriel";
-var idade = 20;
-var tupla = ["Gabriel", 20];
+let nome = "Gabriel";
+let idade = 20;
+let tupla = ["Gabriel", 20];
 console.log("Meu nome é " + nome + " e tenho " + idade + " anos");
 console.log(tupla);
