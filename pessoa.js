@@ -1,10 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Pessoa = void 0;
-class Pessoa {
-    constructor(nome, idade) {
+var Pessoa = /** @class */ (function () {
+    function Pessoa(nome, idade) {
         this.name = nome;
         this.age = idade;
     }
-}
+    return Pessoa;
+}());
 exports.Pessoa = Pessoa;

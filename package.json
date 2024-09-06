@@ -1,7 +1,7 @@
 {
-  "name": "apmd-fiap",
+  "name": "Mobile-Dev",
   "version": "1.0.0",
-  "description": "Repositório destinado a matéria de Advanced Programming e Mobile Dev da FIAP, dirigida pelo professor Hete Caetano dos Santos.\r Aqui será encontrado o desenvolvimento da aula, juntamento a exercícios.",
+  "description": "Checkpoint 1 do segundo semestre da materia Mobile Dev.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

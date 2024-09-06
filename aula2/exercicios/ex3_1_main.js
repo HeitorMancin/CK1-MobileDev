@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var ex3_1_cliente_1 = require("./ex3_1_cliente");
+var ex3_1_pedido_1 = require("./ex3_1_pedido");
+var cliente1 = new ex3_1_cliente_1.Cliente('Gabriel Moura', 'gabrielmoura@example.com');
+var pedido1 = new ex3_1_pedido_1.Pedido(cliente1, 'MacBook Pro', 8500.00);
+pedido1.exibirInformacoes();
+var cliente2 = new ex3_1_cliente_1.Cliente('Vinicius Moura', 'vinciusmoura@example.com');
+var pedido2 = new ex3_1_pedido_1.Pedido(cliente2, 'MacBook', 7500.00);
+pedido2.exibirInformacoes();
